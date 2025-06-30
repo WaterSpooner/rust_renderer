@@ -1,7 +1,7 @@
-use crate::materials::base_material::Material;
-use crate::math::Vec3;
-use crate::objects::base_object::{HitRecord, Hittable};
-use crate::ray::Ray;
+use crate::ray_tracer::materials::Material;
+use crate::ray_tracer::Vec3;
+use crate::ray_tracer::objects::{HitRecord, Hittable};
+use crate::ray_tracer::Ray;
 use std::sync::Arc;
 
 #[derive(serde::Deserialize, serde::Serialize)]

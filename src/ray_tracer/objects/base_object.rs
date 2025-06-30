@@ -1,8 +1,7 @@
-use crate::materials::base_material::Material;
-use crate::math::Vec3;
-use crate::objects::sphere::Sphere;
-use crate::objects::triangle::Triangle;
-use crate::ray::Ray;
+use crate::ray_tracer::materials::Material;
+use crate::ray_tracer::Vec3;
+use crate::ray_tracer::objects::{Sphere, Triangle};
+use crate::ray_tracer::Ray;
 use std::sync::Arc;
 
 pub struct HitRecord {

@@ -1,9 +1,9 @@
-use crate::materials::base_material::Scatterable;
-use crate::math::Vec3;
-use crate::objects::base_object::HitRecord;
-use crate::objects::base_object::Hittable;
-use crate::ray::Ray;
-use crate::scene::Scene;
+use crate::ray_tracer::materials::Scatterable;
+use crate::ray_tracer::Vec3;
+use crate::ray_tracer::objects::HitRecord;
+use crate::ray_tracer::objects::Hittable;
+use crate::ray_tracer::Ray;
+use crate::ray_tracer::Scene;
 use core::f64;
 use rayon::prelude::*;
 

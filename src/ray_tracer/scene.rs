@@ -1,5 +1,5 @@
-use crate::camera::Camera;
-use crate::objects::base_object::Object;
+use crate::ray_tracer::Camera;
+use crate::ray_tracer::objects::Object;
 
 #[derive(serde::Deserialize, serde::Serialize)]
 pub struct Scene {

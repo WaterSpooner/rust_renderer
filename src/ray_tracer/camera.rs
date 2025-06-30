@@ -1,4 +1,4 @@
-use crate::{math::Vec3, ray::Ray};
+use crate::ray_tracer::{Vec3, Ray};
 use rand::Rng;
 
 #[derive(serde::Deserialize, serde::Serialize)]
